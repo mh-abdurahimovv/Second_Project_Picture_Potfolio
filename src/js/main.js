@@ -4,7 +4,10 @@ import forms from "./modules/forms";
 import showMoreStyles from "./modules/showMoreStyles";
 import calc from "./modules/calc";
 import filter from "./modules/filter"
-import showPictureByHower from "./modules/showPictureByHower";
+import showPictureByHover from "./modules/showPictureByHover";
+import accordion from "./modules/accordion";
+import burger from "./modules/menuBurger";
+import scrolling from "./modules/scrolling"
 
 window.addEventListener('DOMContentLoaded', ()=> {
     "use strict";
@@ -17,5 +20,9 @@ window.addEventListener('DOMContentLoaded', ()=> {
     showMoreStyles('.button-styles', '#styles .row');
     calc('#size', '#material', '#options', '.promocode', '.calc-price');
     filter();
-    showPictureByHower('.sizes-block')
+    showPictureByHover('.sizes-block');
+    accordion('.accordion-heading');
+    burger('.burger-menu', '.burger');
+    scrolling('.pageup');
+
 });

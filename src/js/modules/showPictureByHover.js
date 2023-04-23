@@ -1,4 +1,4 @@
-const showPictureByHower = (imgSelector) => {
+const showPictureByHover = (imgSelector) => {
     const blocks = document.querySelectorAll(imgSelector);
 
 
@@ -37,4 +37,4 @@ const showPictureByHower = (imgSelector) => {
 
 };
 
-export default showPictureByHower;
+export default showPictureByHover;
